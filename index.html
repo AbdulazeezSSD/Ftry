@@ -3,85 +3,222 @@
 
 <head>
   <meta charset="utf-8">
-  <title> Abdulazeez WebSite 🍏 </title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #2a7886;
+    }
+
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #00a8cc;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #00a8cc;
+      color: white;
+    }
+  </style>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active {
+      background-color: #00a1ab;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {
+        font-size: 11px
+      }
+    }
+  </style>
+  <title>  Kuwait-Layout</title>
 </head>
 
 <body>
-  <table cellspacing='20'>
-    <tr>
-      <td><img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/02/Super-Saiyan-3-Featured.jpg" alt="SS3" width="450" height="250"></td>
-      <td>
-        <h1> Name : Abdulazeez </h1>
-        <em> A Legendary Saiyan Goes by the Name
-          <strong> <a href="https://dragonball.fandom.com/wiki/Saiyan"> HumanTorch</a></strong>.</em>
-      </td>
-    </tr>
-  </table>
-  <br>
-  You say I'm arrogant , I say damn right, that's <strong>PRIDE</strong>!
+
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="K-Governorate.html">Kuwait Governorate</a>
+    <a href="K-History.html">Kuwait History</a>
+    <a href="K-islands.html">Kuwait Islands</a>
+    <a href="K-touring.html">Kuwait Tourig</a>
+  </div>
+  <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!" />
+      </a>
   </p>
-  <hr />
-  <h3>Books and Education</h3>
-  <P>
-    <ol type="I">
-      <li>High School</li>
-      <li>Computer science Degre</li>
-      <li>Planet Namic Traning</li>
-    </ol>
-  </P>
-  <a href="BornIn.html">- Planet born in </a>
+  <p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
   <br>
+  <h1>  KUWAIT-Layout</h1>
   <br>
-  <hr />
-  <table>
-    <thead>
-      <tr>
-        <th>Power Levels</th>
-      </tr>
-      <tr>
-        <td>Attack</td>
-        <td>Over9000</td>
-      </tr>
-      <tr>
-        <td>Diffence </td>
-        <td>Over9000</td>
-      </tr>
-    </thead>
-  </table>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://live.staticflickr.com/4267/34111870493_ccd4aa8723_b.jpg" alt="Try 1" style="width:100%">
+      <div class="text">Photo-1</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://www.middleeasteye.net/sites/default/files/styles/article_page/public/main-images/Sheikh%20Sabah%20%28Kuwait%20Elections%29.jpg?itok=AQLJsi4l" alt="Try 2" style="width:100%">
+      <div class="text">Photo-2</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://cdn.crtkl.com/wp-content/uploads/sites/1/2015/08/360-mall-4.jpg" alt="Try 3" style="width:100%">
+      <div class="text">Photo-3</div>
+    </div>
+
+  </div>
   <br>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>Fighing Mighty Foes </td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-          </tr>
-          <tr>
-            <td>Saving Planets</td>
-            <td>⭐️⭐️⭐️⭐️</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>arrogance</td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-          </tr>
-          <tr>
-            <td>cooking</td>
-            <td>⭐️</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
 
-  <a href="SaiyanTest.html">Simple test to see if you are Worthy</a>
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
 
+  <script>
+    var slideIndex = 0;
+    showSlides();
 
-
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+  <p>KUWAIT is a country in Western Asia. Situated in the northern edge of Eastern Arabia at the tip
+    of the Arabian Gulf, it borders Iraq to the north and Saudi Arabia to the south. As of 2016,
+    Kuwait has a population of 4.5 million people.Oil reserves were discovered in commercial quantities
+    in 1938. In 1946, crude oil was exported for the first time. From 1946 to 1982, the country
+    underwent large-scale modernization. In the 1980s, Kuwait experienced a period of geopolitical instability
+    and an economic crisis following the stock market crash. In 1990, Kuwait was invaded, and later annexed,
+    by Saddam's Iraq. The Iraqi occup ation of Kuwait came to an end in 1991 after military intervention by a
+    military coalition led by the United States. Kuwait is a non-NATO ally of the United States. Kuwait is
+    also a major ally of ASEAN, while maintaining a very strong relationship with China.</p>
 </body>
 
 </html>
